@@ -1,0 +1,39 @@
+p{
+    color: green;
+    
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.yourName {
+    background-color: #33b9b3;
+    color: white;
+    float: left;
+    width: 175px;
+    height: 50px;
+    padding: 5px;
+}
+.content1{
+    background-color: #dadada;
+    float: center;
+    width:960px;
+    height:50px;
+    border:0px;
+    padding:25px;
+    margin:25px;
+}
+.about {
+    float:right;
+    background-color: grey;
+    padding: 10px;
+}
+.portfolio {
+    float: right;
+    padding: 10px;
+}
+.contact {
+    float: right;
+    padding: 10px;
+}
