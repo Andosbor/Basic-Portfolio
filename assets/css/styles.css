@@ -68,3 +68,10 @@ img{
 p{
     line-height:2;
 }
+.footer{
+    height: 20px;
+    position: fixed;
+    float: bottom;
+    background-color: green;
+    z-index: 2;
+}
