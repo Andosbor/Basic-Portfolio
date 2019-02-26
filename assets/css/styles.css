@@ -1,32 +1,41 @@
-p{
-    color: green;
-    
+body{
+    float: center;
+    background-color: #dddddd;
+    color:#777777;
 }
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+
 .yourName {
-    background-color: #33b9b3;
+    background-color: #4aaaa5;
     color: white;
     float: left;
-    width: 175px;
-    height: 50px;
-    padding: 5px;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
 }
 .content1{
-    background-color: #dadada;
+    background-color: #ffffff;
     float: center;
     width:960px;
     height:50px;
     border:0px;
     padding:25px;
-    margin:25px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 15px;
+}
+.content2{
+    background-color: #ffffff;
+    clear: both;
+    float: center;
+    width:960px;
+    height:600px;
+    border:0px;
+    padding:25px;
+    margin-left:auto;
+    margin-right:auto;
 }
 .about {
     float:right;
-    background-color: grey;
     padding: 10px;
 }
 .portfolio {
@@ -36,4 +45,26 @@ p{
 .contact {
     float: right;
     padding: 10px;
+}
+.about,.contact,.portfolio{
+    font-family:arial;
+}
+h2{
+    font-family:'Georgia'; 
+}
+h3{
+    color:#4aaaa5;
+    font-family: times;
+    font-size: 30px;
+    border-bottom-width: 50px;
+    border-bottom-color: black;
+}
+img{
+    float:left;
+    padding-right: 25px;
+    border:10px;
+    border-color: #4aaaa5;
+}
+p{
+    line-height:2;
 }
